@@ -1,40 +1,28 @@
+/* App.css */
 .App {
   text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  background-color: white;
+  border: 1px solid black;
+  padding-left: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul {
+  list-style: none;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start; /* Align items to the top */
+  
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 8vh;
+  margin: 0;
+  padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li {
+  padding: 8%;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Add more styling as needed */
