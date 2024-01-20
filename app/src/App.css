@@ -1,14 +1,17 @@
 /* App.css */
 .App {
   text-align: center;
-  background: url('http://getwallpapers.com/wallpaper/full/7/3/f/1201986-coding-wallpaper-hd-2880x1800-meizu.jpg') center/cover no-repeat;
-  opacity: 0.8; /* Set the desired opacity level */
+  opacity: 5; 
+  background-color: bisque;
 }
 
 nav {
-  background-color: white; /* Decreased opacity for white background */
+  
+  background-color: white; 
   border: 1px solid black;
   padding-left: 10%;
+  position: fixed;
+  width: 100%;
 }
 
 nav ul {
@@ -25,4 +28,18 @@ nav ul li {
   padding: 8%;
 }
 
-/* Add more styling as needed */
+.Hero{
+  width: 100%;
+}
+.Hero img{
+  padding-left: 50%;
+  padding-top: 10%;
+  border: 2px solid black;
+  
+}
+
+
+.Hero h1{
+  padding-right: 50%;
+  padding-bottom: 50%;
+}

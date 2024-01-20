@@ -1,6 +1,8 @@
 // App.js
 import React from 'react';
 import './App.css';
+import Campus from './CampusRec.png';
+
 
 function App() {
   return (
@@ -15,6 +17,11 @@ function App() {
           <li>Nav-5</li>
         </ul>
       </nav>
+
+      </div>
+      <div className='Hero'>
+      <img src={Campus} alt="Campus Recruitment" ></img>
+      <h1>We are here to guide in Placement</h1>
       </div>
     </div>
     
