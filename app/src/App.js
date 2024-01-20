@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import './App.css';
-import Campus from './CampusRec.png';
+import Hero from './Hero.jpg';
 
 
 function App() {
@@ -20,8 +20,14 @@ function App() {
 
       </div>
       <div className='Hero'>
-      <img src={Campus} alt="Campus Recruitment" ></img>
-      <h1>We are here to guide in Placement</h1>
+      <img src={Hero} alt="Campus Recruitment" ></img>
+      
+      </div>
+      <div className='Hero-down'>
+        <h1>
+          We are here to guide you for the placements
+        </h1>
+        <p>We are here</p>
       </div>
     </div>
     
