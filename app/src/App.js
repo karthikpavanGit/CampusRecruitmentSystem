@@ -10,11 +10,13 @@ function App() {
      <div className='Nav'>
       <nav>
         <ul>
-          <li>Nav-1</li>
-          <li>Nav-2</li>
-          <li>Nav-3</li>
-          <li>Nav-4</li>
-          <li>Nav-5</li>
+        <li>logo
+        </li>
+          <li>Home</li>
+          <li>Courses</li>
+          <li>Internships</li>
+          <li>Blogs</li>
+          <li>Join us</li>
         </ul>
       </nav>
 
